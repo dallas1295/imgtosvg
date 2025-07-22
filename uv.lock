@@ -1,0 +1,20 @@
+version = 1
+revision = 2
+requires-python = ">=3.13"
+
+[[package]]
+name = "imgtosvg"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "vtracer" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "vtracer", specifier = ">=0.6.11" }]
+
+[[package]]
+name = "vtracer"
+version = "0.6.11"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e8/ad/2c89d6f2858ec8a1ac093144ebe6cfefc9307920ce95ad4ff045bb72b228/vtracer-0.6.11.tar.gz", hash = "sha256:407e147362366e14e2666155bf328814bdc345899a6cce18a7729724ff25c01e", size = 24054, upload-time = "2024-05-02T22:09:06.661Z" }

@@ -1,0 +1,13 @@
+[project]
+name = "imgtosvg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "vtracer>=0.6.11",
+]
+
+
+[project.scripts]
+imgtosvg = "imgtosvg.cli:main"
